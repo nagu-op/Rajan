@@ -184,7 +184,7 @@
         async function loadModel() {
             try {
                 // Load the TensorFlow.js model from the public/model directory
-                const model = await tf.loadLayersModel('/public/model/model.json');
+                const model = await tf.loadLayersModel('public/model/model.json');
                 console.log('Model loaded successfully!');
                 return model;
             } catch (error) {
